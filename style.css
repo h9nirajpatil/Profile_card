@@ -1,0 +1,65 @@
+.profile_container {
+  width: 100%;
+  height: 600px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #222;
+  background: linear-gradient(#bdc3c7, #2c3e50);
+}
+.user_content {
+  width: 510px;
+  height: 500px;
+  margin-left: 120%;
+  margin-top: -480px;
+  border: 1.5px solid #dee2ff;
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  box-shadow: 0px 3px 5px 0px#dee2ff;
+}
+.profile_info {
+  width: 50%;
+  margin: 5px 30px;
+}
+.user_name {
+  margin-bottom: 25px;
+  color: #feeafa;
+}
+.dist_same {
+  margin: 10px 10px;
+}
+.circle-1 {
+  border-radius: 50%;
+  background-color: aqua;
+  height: 600px;
+  width: 600px;
+  margin-top: -10%; /* Adjust this value to fine-tune the positioning */
+  margin-left: -7%; /* Adjust this value to fine-tune the positioning */
+  background: linear-gradient(#614385, #516395);
+}
+.circle-2 {
+  border-radius: 50%;
+  background-color: aqua;
+  height: 500px;
+  width: 500px;
+  margin-bottom: -40%; /* Adjust this value to fine-tune the positioning */
+  margin-left: 38%; /* Adjust this value to fine-tune the positioning */
+  background: linear-gradient(#614385, #516395);
+}
+.image_container {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: linear-gradient(#614385, #516395);
+  margin-top: 26%;
+  margin-left: 40%;
+}
+.image_container img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 10px solid #dee2ff;
+}
